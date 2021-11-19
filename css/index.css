@@ -1,0 +1,146 @@
+body {
+    margin: auto;
+    background-color: white;
+}
+
+#navBar {
+    height: 50px;
+    background-color: #001f3f;
+    color: lightblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#navItens {
+    display: inline;
+    line-height: 50px;
+    margin: 0px;
+}
+
+#navBar ul li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#navBar #getString {
+    widows: auto;
+    display: inline;
+
+}
+
+#navBar #stringField {
+    transition: ease-out 300ms;
+    margin-left: 20px;
+    width: 200px;
+    height: 30px;    
+    outline: none;
+}
+#navBar #stringField:hover {
+    transition: ease-in 300ms;
+    margin-left: 20px;
+    width: 200px;
+    height: 30px;
+    background-color: honeydew;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn {
+    transition: ease-in 100ms;
+    width: 100px;
+    height: 35px;
+
+    background-color:rgb(197, 197, 197);
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn:hover {
+    transition: ease-out 100ms;
+    cursor: pointer;
+
+    background-color:rgb(139, 139, 139);
+    border-radius: 5px;
+    outline: none;
+}
+
+#btnEncode {
+    transition: ease-out 200ms;
+    width: 50%;
+    background-color: green;
+    color: honeydew;
+}
+
+
+#btnEncode:hover {
+    transition: ease-in 200ms;
+    width: 50%;
+    background-color: rgb(0, 97, 0);
+    color: honeydew;
+}
+
+#btnDecode {
+    transition: ease-out 200ms;
+    width: 50%;
+    background-color: red;
+    color: honeydew;
+}
+
+
+#btnDecode:hover {
+    transition: ease-in 200ms;
+    width: 50%;
+    background-color: rgb(179, 0, 0);
+    color: honeydew;
+}
+
+
+#encodeButtons {
+    margin-left: 6%;
+    width: 320px;
+    display: flex;
+}
+
+#navBar a{
+    transition: ease-out 100ms;
+    text-decoration: none;
+    font: 21px;
+    color: ivory;
+}
+
+#navBar a:hover{
+    transition: ease-in 100ms;
+    font: 23px;
+    color: magenta;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+
+    line-height: 60px;
+    text-align: center;
+
+    background-color: #001f3f;
+    color: oldlace;
+    font-family: fantasy;
+    position: fixed;
+    bottom: 0;
+}
+
+.content{
+    padding: 10px;
+    width: 25%;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+}
+
+.content #fieldString {
+    display: flex;
+    margin: 10px;
+    width: 350px;
+    height: 30px;
+    background-color: rgb(244, 255, 244);
+    border-radius: 5px;
+    text-align: center;
+}
