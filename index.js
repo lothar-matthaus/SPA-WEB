@@ -6,8 +6,10 @@ var btnSend = document.getElementById('btnSend');
 btnSend.addEventListener('click', () => {
     if (stringField.value === '')
         alert('A string não deve estar vazia.');
-    else
+    else{
         localStorage.setItem('stringHash', stringField.value);
+        location.reload();
+    }
 });
 
 const container = document.querySelector('#root');

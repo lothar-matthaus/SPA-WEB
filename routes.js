@@ -1,9 +1,9 @@
-import md5 from './pages/md5/md5.js'
-import base64 from './pages/base64/base64.js'
-import home from './pages/home/home.js'
+import md5Encode from './pages/md5/main.js'
+import base64Encode from './pages/base64/main.js'
+import home from './pages/home/main.js'
 
 export default {
     home: home(),
-    base64: base64(),
-    md5: md5()
+    base64Encode: base64Encode(),
+    md5Encode: md5Encode()
 }

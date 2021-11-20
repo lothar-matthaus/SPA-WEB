@@ -2,7 +2,6 @@ body {
     margin: auto;
     background-color: white;
 }
-
 #navBar {
     height: 50px;
     background-color: #001f3f;
@@ -23,7 +22,7 @@ body {
 }
 
 #navBar #getString {
-    widows: auto;
+    width: auto;
     display: inline;
 
 }
@@ -86,14 +85,12 @@ body {
     color: honeydew;
 }
 
-
 #btnDecode:hover {
     transition: ease-in 200ms;
     width: 50%;
     background-color: rgb(179, 0, 0);
     color: honeydew;
 }
-
 
 #encodeButtons {
     margin-left: 6%;
@@ -135,7 +132,7 @@ footer {
     display: inline-block;
 }
 
-.content #fieldString {
+.fieldString {
     display: flex;
     margin: 10px;
     width: 350px;
